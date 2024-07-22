@@ -1,0 +1,50 @@
+@import url("https://images.news18.com/ibnlive/uploads/2023/08/independence-day-2023-in-india.gif");
+
+section {
+  padding: 40px 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+#timer .countdown-wrapper {
+  margin: 0 auto;
+}
+#timer .card-header {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+}
+#timer #countdown {
+  font-family: sans-serif;
+  text-align: center;
+  color: #ea0909;
+  text-shadow: 1px 1px 5px rgb(138, 76, 176);
+  padding: 40px 0;
+}
+#countdown .timer {
+  margin: 10px;
+  padding: 20px;
+  font-size: 90px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#timer .countdown-wrapper #countdown #sec {
+  box-shadow: 0 0 0 5px rgba(4, 4, 4, 0.5);
+}
+#timer .countdown-wrapper #countdown #sec:hover {
+  box-shadow: 0 0 0 5px rgb(229, 122, 149);
+}
+#timer #wishes-content {
+  font-family: "Dancing Script", cursive;
+  font-size: xx-large;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.multicolortext {
+  background-image: linear-gradient(to left, green, rgb(235, 235, 247), orange);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
